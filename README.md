@@ -1,1 +1,1 @@
-# EDA Data Cleaning Web Scraping and Projects in Python 
+# EDA DataCleaning WebScraping and Projects in Python 
