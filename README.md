@@ -1,51 +1,55 @@
-# Web Scraping
+# Python Projects – Data Cleaning, EDA & Web Scraping
 
--Collected data from a real website using requests and BeautifulSoup
-
--Parsed HTML content to extract relevant tables and elements
-
--Handled pagination and dynamic content (if any)
-
--Exported scraped data into a CSV file for further analysis
+This repository showcases Python-based projects focused on data cleaning, exploratory data analysis (EDA), and web scraping. The goal is to extract, prepare, and explore data to uncover meaningful insights and support further analysis.
 
 
-# Data Cleaning
 
--Removed duplicate entries to ensure data integrity
+# Data Cleaning & Preprocessing:
 
--Handled missing or null values using imputation or deletion
+-Handling missing or null values
 
--Converted data types (e.g., dates, numeric values)
+-Removing duplicates and irrelevant records
 
--Standardized inconsistent formats and categories
+-Standardizing data types and formats
 
--Renamed columns for better readability and structure
-
-
-# Exploratory Data Analysis (EDA)
-
--Analyzed distributions using histograms and box plots
-
--Explored relationships with scatter plots and correlation heatmaps
-
--Identified trends, outliers, and patterns in the dataset
-
--Grouped and aggregated data using groupby and pivot tables
-
--Summarized key findings and visualized with matplotlib and seaborn
+-Dealing with outliers and inconsistent entries
 
 
-# Tech Used
 
--Python 3.x
+# Exploratory Data Analysis (EDA):
 
--Jupyter Notebook
+-Descriptive statistics and summary metrics
+
+-Data visualization for trends and patterns
+
+-Correlation analysis and feature relationships
+
+-Grouped and time-based analysis
 
 
-# Libraries:
 
--requests, BeautifulSoup (Web Scraping)
+# Web Scraping:
 
--pandas, numpy (Data Wrangling)
+-Extracting structured data from dynamic and static websites
 
--matplotlib, seaborn (Data Visualization)
+-Parsing HTML content using BeautifulSoup, Selenium, or Scrapy
+
+-Cleaning and storing scraped data in structured formats (CSV, JSON, or databases)
+
+
+
+# Tools & Libraries Used:
+
+-Python – Core programming language
+
+-Pandas & NumPy – For data manipulation and cleaning
+
+-Matplotlib & Seaborn – For data visualization during EDA
+
+-BeautifulSoup / Requests / Selenium / Scrapy – For web scraping
+
+-Jupyter Notebook – For code execution and reporting
+
+-SQLite / CSV / JSON – For storing cleaned or scraped data
+
+-Optional: Regular Expressions, tqdm, time, lxml, and other scraping utilities
